@@ -1,0 +1,69 @@
+.content{
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.bike-points__item{
+  background-color: #9ba2c0;
+  border: 1px solid #9ba2c0;
+  border-radius: 4px;
+  margin: 10px 20px 20px 20px;
+}
+
+.bike-points__name{
+  font-size: 1.6em;
+  margin: 10px 0px 10px 30px;
+}
+
+.bike-points__counter{
+  font-size: 1.2em;
+  margin: 10px 0px 10px 20px;
+}
+.bike-points-condition{
+  background-color: white;
+  border-radius: 4px;
+  margin: 0px 30px 20px 30px;
+  padding: 10px;
+}
+.search-field{
+  border: 0px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),
+  0 0 0 1px rgba(0,0,0,0.08);
+  font-family: Arial,sans-serif;
+  margin: auto;
+  width: 70%;
+  height: 40px;
+}
+input {outline: 0 !important;}
+input{
+  border: 0px;
+  height: 37px;
+  float: left;
+  margin: 0 0 0 2%;
+  width: 80%;
+}
+.search-button {outline: 0 !important;}
+.search-button{
+  background-color: #888fac;
+  border: 0px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),
+  0 0 0 1px rgba(0,0,0,0.08);
+  height: 40px;
+  text-shadow: #eadbff 0 0 10px;
+  font-size: 1.2em;
+  float: right;
+  width: 18%;
+}
+.search-button:active{
+  background-color: #9ba2c0;
+  border: 0px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),
+  0 0 0 1px rgba(0,0,0,0.08);
+}
+h2{
+  text-align: center;
+}
+span{
+  float: right;
+}
+.bike-points__failure{
+  margin: 0 0 0 20px;
+}
